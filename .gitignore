@@ -1,0 +1,24 @@
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+*.egg-info/
+.Python
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.venv/
+**/.venv/
+.env
+.envrc
+MUJOCO_LOG.TXT
+
+# Local datasets, training logs, W&B runs, and rendered outputs stay local
+data/
+outputs/
+**/logs/
+**/wandb/
+**/artifacts/
